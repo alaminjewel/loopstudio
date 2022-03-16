@@ -256,6 +256,7 @@ header nav .primary-nav .nav-link a:hover::before, header nav .primary-nav .nav-
 }
 @media (min-width: 1023px) {
   .featured-section .grid .content {
+    text-align: inherit;
     grid-row: 1/2;
     grid-column: 6/-1;
     background-color: white;

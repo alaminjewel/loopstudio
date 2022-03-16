@@ -1,0 +1,42 @@
+
+@use 'variables' as *;
+
+%h1{
+  font-size: 1.75rem;
+  color: $white;
+  @media(min-width: 425px){
+    font-size: 2rem;
+  }
+  @media(min-width: 800px){
+    font-size: 3rem;
+  }
+}
+%h2{
+  font-size: 1.75rem;
+  color: $black;
+  @media(min-width: 425px){
+    font-size:2rem;
+  }
+}
+%h3{
+  font-size: 1.25rem;
+  color: $white;
+  @media(min-width: 425px){
+    font-size: 1.75rem;
+  }
+}
+%nav-link{
+  font-size: 1.125rem;
+  color: $white;
+  @media(min-width: 425px){
+    font-size: 1.25rem;
+  }
+}
+%p{
+  font-size: 1rem;
+  line-height: 1.5;
+  color: $veryDarkGray;
+  @media(min-width: 425px){
+    font-size: 1.25rem;
+  }
+}

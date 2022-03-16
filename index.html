@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <!--google-font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Loopstudios landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/logo.svg" alt="">
+    </div>
+    <button aria-controls="primary-nav" aria-expanded="false" class="mobile-nav-toggle">
+      <div class="menu-btn">
+        <div class="menu-btn__burger"></div>
+      </div>
+    </button>
+    <nav>
+      <ul class="primary-nav" data-visible="false">
+        <li class="nav-link"><a href="#about">About</a></li>
+        <li class="nav-link"><a href="#career">Career</a></li>
+        <li class="nav-link"><a href="#events">Events</a></li>
+        <li class="nav-link"><a href="#products">Products</a></li>
+        <li class="nav-link"><a href="#support">Support</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="hero-section">
+      <img class="desktop-hero" src="images/desktop/image-hero.jpg" alt="">
+      <img class="mobile-hero" src="images/mobile/image-hero.jpg" alt="">
+      <h1>Immersive <br>experiences<br> that<br> deliver</h1>
+  </section>
+  <section class="featured-section">
+    <div class="container">
+      <div class="grid">
+        <div class="img">
+          <img src="images/desktop/image-interactive.jpg" alt="">
+        </div>
+        <div class="content">
+          <h2>The leader in<br> interactive VR</h2>
+          <p>Founded in 2011, Loopstudios has been producing world-class virtual reality 
+            projects for some of the best companies around the globe. Our award-winning 
+            creations have transformed businesses through digital experiences that bind 
+            to their brand.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="product-section">
+    <div class="container">
+      <div class="heading">
+        <h2>Our creations</h2>
+      </div>
+      <div class="grid">
+        <div class="grid-item product">
+          <img class="d-img" src="images/desktop/image-deep-earth.jpg" alt="">
+          <img class="m-img" src="images/mobile/image-deep-earth.jpg" alt="">
+          <h3>Deep earth</h3>
+        </div>
+        <div class="grid-item product">
+          <img class="d-img" src="images/desktop/image-night-arcade.jpg" alt="">
+          <img class="m-img" src="images/mobile/image-night-arcade.jpg" alt="">
+          <h3>Night arcade</h3>
+        </div>
+        <div class="grid-item product">
+          <img class="m-img" src="images/mobile/image-soccer-team.jpg" alt="">
+          <img class="d-img" src="images/desktop/image-soccer-team.jpg" alt="">
+          <h3>Soccer team VR</h3>
+        </div>
+        <div class="grid-item product">
+          <img class="m-img" src="images/mobile/image-grid.jpg" alt="">
+          <img class="d-img" src="images/desktop/image-grid.jpg" alt="">
+          <h3>The grid</h3>
+        </div>
+        <div class="grid-item product">
+          <img class="m-img" src="images/mobile/image-from-above.jpg" alt="">
+          <img class="d-img" src="images/desktop/image-from-above.jpg" alt="">
+          <h3>From up above VR</h3>
+        </div>
+        <div class="grid-item product">
+          <img class="m-img" src="images/mobile/image-pocket-borealis.jpg" alt="">
+          <img class="d-img" src="images/desktop/image-pocket-borealis.jpg" alt="">
+          <h3>Pocket borealis</h3>
+        </div>
+        <div class="grid-item product">
+          <img class="d-img" src="images/desktop/image-curiosity.jpg" alt="">
+          <img class="m-img" src="images/mobile/image-curiosity.jpg" alt="">
+          <h3>The curiosity</h3>
+        </div>
+        <div class="grid-item product">
+          <img class="d-img" src="images/desktop/image-fisheye.jpg" alt="">
+          <img class="m-img" src="images/mobile/image-fisheye.jpg" alt="">
+          <h3>Make it fisheye</h3>
+        </div>  
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="grid">
+        <div class="grid-item nav">
+          <img src="images/logo.svg" alt="">
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+        </div>
+        <div class="grid-item social-link">
+          <ul>
+            <li><a href="#"><i class='bx bxl-facebook-square'></i></a></li>
+            <li><a href="#"><i class='bx bxl-twitter'></i></a></li>
+            <li><a href="#"><i class='bx bxl-pinterest'></i></a></li>
+            <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
+          </ul>
+          <p>© 2021 Loopstudios. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>
